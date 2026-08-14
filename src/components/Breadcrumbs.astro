@@ -1,0 +1,12 @@
+---
+const currentPath = Astro.url.pathname;
+const notBase = currentPath !== "/";
+---
+
+{
+	notBase && (
+		<div class="p-1">
+			<p class="text-xs font-mono">{currentPath}</p>
+		</div>
+	)
+}

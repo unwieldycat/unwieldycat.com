@@ -1,0 +1,23 @@
+---
+import Layout from "../layouts/Layout.astro";
+import ProjectCard from "../components/ProjectCard.astro";
+---
+
+<Layout>
+	<div class="p-4">
+		<h2 class="tracking-tight text-4xl font-semibold">projects</h2>
+		<span>
+			projects that i'm working on or have worked on in the past.
+		</span>
+		<div class="my-4 divide-y divide-dashed border border-dashed">
+			<ProjectCard title="ScaffoldMC" href="/projects/scaffoldmc">
+				Currently a work in progress, ScaffoldMC is a server management
+				panel for Minecraft.
+			</ProjectCard>
+			<ProjectCard title="calmaker" href="/projects/calmaker">
+				Calmaker is a web app to generate standard .ics calendars from
+				my school's student information system.
+			</ProjectCard>
+		</div>
+	</div>
+</Layout>
