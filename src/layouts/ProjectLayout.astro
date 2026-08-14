@@ -23,15 +23,9 @@ const { frontmatter } = Astro.props;
 			<Header />
 			<Breadcrumbs />
 			<div class="flex flex-col gap-2 p-4">
-				<div
-					class="flex flex-row justify-between items-center flex-wrap"
-				>
+				<div class="flex flex-row justify-between items-center flex-wrap">
 					<h1 class="mr-4">{frontmatter.title}</h1>
-					{
-						frontmatter.links && (
-							<ProjectLinks links={frontmatter.links} />
-						)
-					}
+					{frontmatter.links && <ProjectLinks links={frontmatter.links} />}
 				</div>
 
 				<slot />
