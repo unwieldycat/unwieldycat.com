@@ -5,7 +5,7 @@ links:
   - label: GitHub
     url: https://github.com/ScaffoldMC/ScaffoldMC
   - label: Project Site
-    url: https://scaffoldmc.com
+    url: https://scaffoldmc.org
 ---
 
 ScaffoldMC is a server management panel for Minecraft that I've been working on
