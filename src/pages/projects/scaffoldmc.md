@@ -20,9 +20,10 @@ building something like a Minecraft launcher. The final straw that led me to
 start the project was the friction of the Minecraft server panel I currently
 use. Third-party client launchers like Prism or Modrinth launcher are incredibly
 user friendly, and it is trivial to do things like change the game version and
-install mods with. Server panels, on the other hand, often leave you on your own
-after you create the server, requiring you manually update servers, manually
-manage mods, etc. ScaffoldMC intends to bring that ease of use to the server.
+install mods on those platforms. Server panels, on the other hand, often leave
+you on your own after you create the server, requiring you manually update
+servers, manually manage mods, etc. ScaffoldMC intends to bring that ease of use
+to the server.
 
 ## Personal Remarks
 
